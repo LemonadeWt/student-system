@@ -1,0 +1,30 @@
+.registerContainer {
+  height: 100vh;
+  width: 100%;
+}
+
+.registerContainer .box-card {
+  width: 400px;
+  height: 350px;
+  margin: 100px auto;
+}
+
+.registerContainer .box-card .el-form {
+  border-radius: 10px;
+}
+
+.registerContainer .box-card .el-form .el-form-item {
+  box-sizing: border-box;
+}
+
+.registerContainer .box-card .el-form .el-form-item:nth-child(1), .registerContainer .box-card .el-form .el-form-item:nth-child(2), .registerContainer .box-card .el-form .el-form-item:nth-child(3) {
+  margin-right: 15px;
+}
+
+.registerContainer .box-card .el-form .el-form-item:nth-child(4) {
+  text-align: center;
+}
+
+.registerContainer .box-card .el-form .el-form-item .el-button {
+  width: 100px;
+}

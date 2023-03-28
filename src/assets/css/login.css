@@ -1,0 +1,53 @@
+.loginContainer {
+  height: 100vh;
+}
+
+.loginContainer .box-card {
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.loginContainer .box-card .el-form {
+  border-radius: 10px;
+}
+
+.loginContainer .box-card .el-form .el-form-item {
+  box-sizing: border-box;
+}
+
+.loginContainer .box-card .el-form .el-form-item:nth-child(1), .loginContainer .box-card .el-form .el-form-item:nth-child(2) {
+  margin-right: 15px;
+}
+
+.loginContainer .box-card .el-form .el-form-item:nth-child(3), .loginContainer .box-card .el-form .el-form-item:nth-child(4) {
+  text-align: center;
+}
+
+.loginContainer .box-card .el-form .el-form-item .el-button {
+  width: 320px;
+}
+
+.loginContainer .box-card .footer {
+  height: 37px;
+  line-height: 37px;
+  position: relative;
+  overflow: hidden;
+}
+
+.loginContainer .box-card .footer .el-avatar {
+  float: left;
+  background-color: transparent;
+  margin: 5px 2px 0 5px;
+}
+
+.loginContainer .box-card .footer .el-avatar:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.loginContainer .box-card .footer .el-link {
+  float: right;
+  margin-right: 13px;
+}
